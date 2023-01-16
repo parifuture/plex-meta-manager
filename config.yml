@@ -1,0 +1,89 @@
+libraries:
+  Movies:
+    metadata_path:
+      - file: /config/plexmetamanager/buckets/topMoviesCharts.yml
+  Movies (4K-Remux):
+    metadata_path:
+      - file: /config/plexmetamanager/buckets/topMoviesCharts.yml
+  Movies (4K):
+    metadata_path:
+      - file: /config/plexmetamanager/buckets/topMoviesCharts.yml
+  Movies (Animations):
+    metadata_path:
+      - file: /config/plexmetamanager/buckets/topMoviesCharts.yml
+  TV:
+    metadata_path:
+      - file: /config/plexmetamanager/buckets/networks.yml
+      - file: /config/plexmetamanager/buckets/topTvCharts.yml
+  TV (4K):
+    metadata_path:
+      - file: /config/plexmetamanager/buckets/networks.yml
+      - file: /config/plexmetamanager/buckets/topTvCharts.yml
+  TV (Animations):
+    metadata_path:
+      - file: /config/plexmetamanager/buckets/networks.yml
+      - file: /config/plexmetamanager/buckets/topTvCharts.yml
+  Anime:
+    metadata_path:
+      - file: /config/plexmetamanager/buckets/anime.yml
+  Anime (Movies):
+    metadata_path:
+      - file: /config/plexmetamanager/buckets/anime.yml
+
+settings:
+  cache: true
+  cache_expiration: 60
+  asset_directory: config/assets
+  asset_folders: true
+  asset_depth: 0
+  create_asset_folders: false
+  prioritize_assets: false
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  sync_mode: append
+  minimum_items: 1
+  default_collection_order:
+  delete_below_minimum: true
+  delete_not_scheduled: false
+  run_again_delay: 2
+  missing_only_released: false
+  only_filter_missing: false
+  show_unmanaged: true
+  show_filtered: false
+  show_options: false
+  show_missing: false
+  show_missing_assets: true
+  save_report: false
+  tvdb_language: eng
+  ignore_ids:
+  ignore_imdb_ids:
+  item_refresh_delay: 0
+  playlist_sync_to_user: all
+  playlist_report: false
+  verify_ssl: true
+  custom_repo:
+  check_nightly: false
+  show_unconfigured: true
+  playlist_exclude_users:
+webhooks:
+  error:
+  version:
+  run_start:
+  run_end:
+  changes:
+  delete:
+plex:
+  url: https://MY-PLEX-URL:32400
+  token: MY-PLEX-TOKEN
+  timeout: 60
+  clean_bundles: true
+  empty_trash: false
+  optimize: false
+tmdb:
+  apikey: MY-TMDB-API-KEY
+  language: en
+  cache_expiration: 60
+  region:
